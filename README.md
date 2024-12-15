@@ -51,7 +51,6 @@ The platform was implemented using the following:
 2. **Teacher Module** for content creation.
 3. **Student Module** for resource and project management.
 
-Sample code snippets for database connectivity and JSP files are provided in the repository.
 
 ## Future Enhancements
 - Real-time chat and discussion forums.
@@ -61,4 +60,15 @@ Sample code snippets for database connectivity and JSP files are provided in the
 - Integration with tools like Google Drive and Zoom.
 - Enhanced security features such as 2FA.
 - Multilingual support for broader accessibility.
+
+## Snapshots
+![Picture1](https://github.com/user-attachments/assets/8726cabd-5a6a-481e-8faf-73295b8613ff)
+![image](https://github.com/user-attachments/assets/2a89654c-cf15-4ce8-81ee-17f4b4de72c2)
+![image](https://github.com/user-attachments/assets/7eb3159a-efbd-447f-a5b1-2caa36eae42c)
+![image](https://github.com/user-attachments/assets/baac6c3c-df3b-4efd-acd3-97cb91e9b595)
+![image](https://github.com/user-attachments/assets/f5dd1e47-157c-4920-8147-d2dd21eb2960)
+![image](https://github.com/user-attachments/assets/9fbc7148-811e-44be-baab-9bdf5ba47906)
+![image](https://github.com/user-attachments/assets/1c82370e-dd34-4532-9baa-abed8af6e853)
+![image](https://github.com/user-attachments/assets/e4864bbd-8b5b-4993-8277-a2d01a88e176)
+
 
