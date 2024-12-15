@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="black">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- External css -->
+<link rel="stylesheet" href="project.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.0/dist/full.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+
+<script>
+  tailwind.config = {
+      theme: {
+          screens: {
+              'sm': '576px',
+
+              'md': '768px',
+
+              'lg': '992px',
+
+              'xl': '1200px',
+          },
+          fontFamily: {
+              'inter': ['Inter', 'sans-serif'],
+          },
+          extend: {
+             backgroundImage: {
+                'hero-pattern': "url('.\Assest\background-illustration.png')",
+                'footer-texture': "url('/img/footer-texture.png')",
+              },
+              colors: {
+                  mygold: '#ad9970',
+                  greenmain:'#3DBE29',
+                  myblue:'#233C7B',
+                  hoverText:'#F64E4C',
+                  header:'#2a1d33'
+              },
+          }
+      }
+  }
+</script>
+<body>
+
+    <!-- Nav Start -->
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a href="./studentDashboard.jsp">Homepage</a></li>
+              <li><a href="#">Road Map</a></li>
+              <li><a href="./lab.html">Lab</a></li>
+              <li><a href="./project.html">project</a></li>
+             
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-center">
+          <a class="btn btn-ghost normal-case text-3xl logo">Learn With Us</a>
+        </div>
+        <div class="navbar-end">
+          <button class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          </button>
+          <button class="btn btn-ghost btn-circle">
+            <div class="indicator">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+              <span class="badge badge-xs badge-primary indicator-item"></span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <!-- Nav send -->
+      <!-- Hero Start -->
+      <div class="hero min-h-screen hero-overlay bg-opacity-60" style="background-image:url(./pexels-hitesh-choudhary-340152.jpg)">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <!-- text box -->
+        <div class=" w-full text-center text-neutral-content">
+          <div class="  ">
+            <h1 class="text-5xl logo font-bold leading-none sm:text-6xl">
+                <a href="" class="typewrite" data-period="2000" data-type='["Welcome","Learn With us.", "searching For Road Map ", "One stop solution", "We Love to Develop." ]'>
+                    <span class="wrap"></span>
+                  </a>
+            </h1>
+           
+            <p class="mb-5 mt-5  ">Hey There,This is a place where You  will find all <br>Road Map To Guide Your Developer Journey</p>
+           
+          </div>
+    
+        </div>
+         
+        
+
+      </div>
+      
+
+      <!-- Road Map -->
+      <p class=" hero-para text-center text-2xl md:text-5xl mt-5">“Road Map”</p>
+    <div class="flex mt-10 justify-around p-10 rounded">
+     
+        <div class="">
+            <label for="my-modal-5" class="btn rounded label-btn">Look Road Map for Frontend</label>
+    
+          </div>
+          <div>
+            <label for="my-modal-5" class="btn rounded label-btn">Look Road Map for  Backend</label>
+    
+          </div>
+          <div>
+            <label for="my-modal-5" class="btn rounded label-btn">Look Road Map for FullStack </label>
+    
+          </div>
+    </div>  
+     
+
+
+
+      <!-- moDEL BODY -->
+      <input type="checkbox" id="my-modal-5" class="modal-toggle" />
+<div class="modal">
+  <div class="modal-box w-11/12 max-w-5xl">
+    <section class="py-8 dark:bg-gray-800 dark:text-gray-100">
+        <div class="container mx-auto">
+            <div class="p-4 mx-auto text-center md:px-10 lg:px-32 xl:max-w-3xl">
+                <h2 class="text-2xl font-bold leading-none sm:text-4xl">Ready To Learn frontend</h2>
+                <p class="px-8 my-4">Here is the Complete Road Map to Leran Fronten Easy with the time duration you have to Spend to learn Frontend ,Till Then Enjoy And keep Learning</p>
+            </div>
+            <div class="grid grid-cols-5 p-4 md:p-8">
+                <div class="flex justify-center px-4 col-span-full md:col-span-1 md:flex-col md:justify-start md:items-start">
+                    <button class="p-2 border-b-2 md:border-l-2 md:border-b-0 md:py-3 dark:border-gray-300 dark:text-gray-400">Basic of Web</button>
+                    <button class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3 dark:border-violet-400 dark:text-gray-50">Html</button>
+                    <button class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3 dark:border-gray-300 dark:text-gray-400">Css</button>
+                    <button class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3 dark:border-gray-300 dark:text-gray-400">Css Frame Work</button>
+                    <button class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3 dark:border-gray-300 dark:text-gray-400">JavaScript</button>
+                    <button class="px-2 py-1 border-b-2 md:border-l-2 md:border-b-0 md:py-3 dark:border-gray-300 dark:text-gray-400">React</button>
+                </div>
+                <div class="grid gap-12 py-4 text-center sm:grid-cols-2 col-span-full md:col-span-4 md:text-left">
+                    <div class="flex flex-col items-center justify-center space-y-3 md:justify-start md:items-start">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 dark:text-violet-400">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                        </svg>
+                        <h5 class="text-xl font-semibold">Html</h5>
+                        <p>Learn The Basic  Structure of Html and the work of Html,different type,Time Spend 1 week</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center space-y-3 md:justify-start md:items-start">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 dark:text-violet-400">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path>
+                        </svg>
+                        <h5 class="text-xl font-semibold">Css</h5>
+                        <p>Here,is Place Where alot of student made mistake they try to master css which is not possible so learn the basic about css selector and sudo classes and some basic css properties  and Learn with Css frame Work buld 15 static project,Time spend 1 week </p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center space-y-3 md:justify-start md:items-start">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 dark:text-violet-400">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                        </svg>
+                        <h5 class="text-xl font-semibold">JavaScript</h5>
+                        <p>Give this Phase a good amount of time over here ,LEarn the Basic workflow , Style of execution of JS and do some Project in Dom ,Time Spend 2 month</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center space-y-3 md:justify-start md:items-start">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 dark:text-violet-400">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                        </svg>
+                        <h5 class="text-xl font-semibold">React</h5>
+                        <p>If You have Done With all the above step properly then this phase will very easy for you dont leran React with Project </p>
+                        <label for="my-modal-5" class="btn">Yay!</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+</div>
+      
+      
+      
+
+      
+    
+    <script src="./letter.js"></script>
+</body>
+</html>

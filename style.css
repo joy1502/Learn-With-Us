@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Mulish:wght@400;700&family=Oswald:wght@200;700&family=Roboto:ital@0;1&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+body
+{
+    
+    
+    background-repeat: no-repeat;
+    background:#0D0D0D;
+    
+} 
+
+.hero-para
+{
+    background:  linear-gradient(to right,#f32170, #ff6b08,
+    #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    letter-spacing: 0.1rem;
+}
+.hero
+{
+    background:url("hero_bg.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:bottom; 
+    /* height:85vh;  */
+    max-height: 800px;
+    width:100%;
+    
+    object-fit:cover;
+    
+
+}
+
+
+.head
+{
+    background-color:#2a1d33;
+    height:20vh;
+    
+  
+}
+.back-img
+{
+    background-image:url("background-illustration.png");
+    background-position: center;
+    background-size: contain;
+    border-start-end-radius: 10%;
+    border-end-end-radius: 10%;
+    
+}
+.inner
+{
+ background: rgba(255,255,255,0.5);
+/* -webkit-backdrop-filter: blur(10px); */
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255,255,255,0.25);
+}
+
+.btn a{
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, #DB0B5F, #6F00ED);
+    border-image-slice: 1;
+    
+   
+}
+section.feature
+{ 
+    border: 1px solid transparent;
+    /* border-image: linear-gradient(90deg, #DB0B5F, #6F00ED);
+    border-image-slice: 1; */
+    
+}
+.submit-btn
+{
+    background:linear-gradient(90deg,#DB0B5F, #6F00ED);
+    transition:all 2s ease-in-out;
+}
+.submit-btn:hover
+{
+    background:linear-gradient(90deg,#6F00ED,#DB0B5F);
+    animation: upp 1s ease-in-out;
+}
+@keyframes upp {
+    
+}
+section .feature
+{ 
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, #DB0B5F, #6F00ED);
+    border-image-slice:1;
+    
+}
+.p2{
+    box-shadow: 0 -10px 30px -15px #6F00ED ,-0 10px 30px -10px #DB0B5F;
+    
+    
+}
+footer {
+    background: linear-gradient(45deg,#FD297A #9424F0);
+   
+    
+}

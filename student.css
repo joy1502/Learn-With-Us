@@ -1,0 +1,58 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Mulish:wght@400;700&family=Oswald:wght@200;700&family=Roboto:ital@0;1&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+body
+{
+    
+    
+    background-repeat: no-repeat;
+    background:#0D0D0D;
+    
+}
+.btn-logout
+{
+    background:linear-gradient(90deg,#DB0B5F, #6F00ED);
+    
+    transition:all 2s ease-in-out;
+}
+.btn-logout:hover
+{
+    background:linear-gradient(90deg,#6F00ED, #DB0B5F);
+}
+.hero-para
+{
+    background:  linear-gradient(to right,#f32170, #ff6b08,
+    #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    letter-spacing: 0.1rem;
+}
+h2.mast
+{
+    font-size: 80px;
+            color: #00ffea;
+            font-weight: normal;
+            text-shadow: 0 0 60px #00ffea,
+                         0 0 60px #00ffea,
+                         0 0 60px #00ffea,
+                         0 0 80px #00ffea,
+                         0 0 100px #00ffea,
+                         0 0 120px #00ffea,
+                         0 0 200px #00ffea,
+                         0 0 300px #00ffea,
+                         0 0 400px #00ffea;
+            animation: ani 4s linear infinite;
+}
+@keyframes ani {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}*/

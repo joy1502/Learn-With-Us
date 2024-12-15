@@ -1,0 +1,129 @@
+/* .logo{
+    
+        font-size: 80px;
+                color: #063f3a;
+                font-weight: normal;
+                text-shadow: 0 0 60px #00ffea,
+                             0 0 60px #00ffea,
+                             0 0 60px #278a45,
+                             0 0 80px #00ffea,
+                             0 0 100px #00ffea,
+                             0 0 120px #00ffea,
+                             0 0 200px #00ffea,
+                             0 0 300px #00ffea,
+                             0 0 400px #00ffea;
+                animation: ani 4s linear infinite;
+    
+    @keyframes ani {
+        0% {
+            filter: hue-rotate(0deg);
+        }
+        100% {
+            filter: hue-rotate(360deg);
+        }
+    }
+} */
+.logo{
+    background:  linear-gradient(to right,#f32170, #ff6b08,
+    #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    letter-spacing: 0.1rem;
+}
+body
+{
+    opacity:60;
+}
+.card-border
+{
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, #DB0B5F, #6F00ED);
+    border-image-slice: 1;
+}
+
+.testimotionals {
+    width:350px;
+     display:inline-block;
+      margin-left:50px;
+      margin-top:50px
+      
+    }
+    
+    
+    .testimotionals .card {
+      
+      position:relative;
+      overflow:hidden;
+      width:350px;
+      margin:0 auto;
+      background:#333;
+      padding:20px;
+      box-sizing:border-box;
+      text-align:center;
+      box-shadow:0 10px 40px rgba(0,0,0,.5)
+    }
+    .testimotionals .card .layer {
+      z-index:1;
+      position:absolute;
+      top:calc(100% - 2px);
+      height:100%;
+      width:100%;
+      left:0;
+      background:linear-gradient(to left , orange, tomato);
+      transition:0.5s;
+      
+    }
+    
+    .testimotionals .card .content {
+      z-index:2; 
+      position:relative;
+    }
+    
+    .testimotionals .card:hover  .layer{
+      top:0;
+    }
+    
+    .testimotionals .card .content p {
+      font-size:14px;
+      line-height:24px;
+      color:#fff;
+      
+    }
+    .testimotionals .card .content .image {
+      width:100px; height:100px;
+      margin:0 auto;
+      border-radius:50%;
+      overflow:hidden;
+      border: 4px solid white;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      
+    }
+    
+    .testimotionals .card .conte nt .details h2 {
+    font-size:18px;
+    color:white;
+    }
+    .testimotionals .card .content .details h2 span {
+    font-size:18px;
+    color:purple;
+      transition:0.5s;
+    }
+    .testimotionals .card:hover .content .details h2 span {
+      color:white;
+      position:relative
+    }
+
+   
+.label-btn
+{
+    background:linear-gradient(90deg,#DB0B5F, #6F00ED);
+    transition:all 2s ease-in-out;
+}
+.hero-para
+{
+    background:  linear-gradient(to right,#f32170, #ff6b08,
+    #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    letter-spacing: 0.1rem;
+}
